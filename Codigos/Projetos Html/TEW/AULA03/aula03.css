@@ -1,0 +1,63 @@
+
+
+/*--------------button----------------*/
+
+.btnhead{
+    outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+
+}
+
+/*------------------------------------*/
+.flex {
+	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+
+h3 {
+    text-align: center;
+	margin: 20px 0 0 0;
+	font-size: 1.25em;
+	font-weight: normal;
+}
+.row{
+    margin: 50px;
+}
+
+@media (min-width: 576px) 
+{
+   .col{
+    color: blueviolet;
+   }
+}
+
+@media (min-width: 768px) { 
+    .col{
+        color: aqua;
+}}
+
+@media (min-width: 992px) { 
+    .col{
+        margin: 20;
+        color: red;
+    }
+ }
+
+@media (min-width: 1200px) { 
+    .col{
+        margin: 20;
+        color: green;
+    }
+ }
+
+@media (min-width: 1400px) { 
+    .col{
+        margin: 20;
+        color: yellow;
+    }
+ }

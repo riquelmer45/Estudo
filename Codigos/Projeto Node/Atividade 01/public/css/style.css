@@ -1,0 +1,38 @@
+body {
+    background-color: #090C15;
+    color: white;
+}
+
+.erro_404{
+    color: red;
+    text-decoration: underline;
+}
+
+.topo{
+    background-color: #233056;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    max-width: 256px;
+    max-height: 256px;
+    width: auto;
+    height: auto;
+}
+
+.topo_button{
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+
+}
+
+.titulo_view{
+    text-align: center;
+}
+.dados_view{
+    border: 2px solid white;
+    text-align: center;
+
+}
